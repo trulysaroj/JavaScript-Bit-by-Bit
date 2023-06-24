@@ -1,6 +1,12 @@
+
+![repository-open-graph-template](https://github.com/trulysaroj/JavaScript-Bit-by-Bit/assets/123483889/9bdeb1ab-fce8-4307-b3bc-b4b3c71b5000)
+
+
+
+
 # JavaScript-Bit-by-Bit
 
-Welcome to the JavaScript Bit by Bit Repository! 
+Welcome to the JavaScript Bit by Bit Repository! 👋
 This repository aims to provide a comprehensive collection of JavaScript concepts, ranging from beginner to intermediate to advanced topics. Whether you're just starting to learn JavaScript or looking to deepen your understanding, this repository has got you covered.
 
 ## Table of Contents
