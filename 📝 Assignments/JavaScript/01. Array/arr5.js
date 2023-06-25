@@ -57,3 +57,58 @@ console.log(sumOdd);
 
 
 //////////////////////////////////////////////////////////////////
+
+
+const myDetails = [
+    {id:3, name: 'hari'},
+    {id:5, name: 'shyam'},
+    {id:6, name: 'gopal'},
+  ]
+  
+// return only array of ids: expected output  [3,5,6]
+
+const idArr = [];
+myDetails.forEach((index) => {
+    idArr.push(index.id)
+   
+});
+
+console.log(idArr);
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+const userDetails= [
+    {score: 0, name:'hari', marks: [10,3,23]},
+    {score: 0, name:'shyam', marks: [50,23,23]},
+    {score: 0, name:'shyam',marks: [20,13,43]},
+]
+//loop over the arr of objects and calculate total score, expected output is:
+
+// [
+//     {score: 36, name:'hari', marks: [10,3,23]},
+//     {score: 96, name:'shyam', marks: [50,23,23]},
+//     {score: 76, name:'shyam',marks: [20,13,43]},
+// ]
+
+
+const newUserDetails = userDetails.map((user) => {
+    let marks = user.marks;
+
+    // calculating sum of array
+    let totalSum = marks.reduce((accu, curr) => accu + curr);
+    
+    // Returning new object with totalSum
+    return {...user, score: totalSum}    // (Object destructuring shorthand)
+    
+});
+
+
+console.log(newUserDetails);
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
