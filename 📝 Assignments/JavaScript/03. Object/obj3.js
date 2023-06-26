@@ -11,12 +11,15 @@ const userDetails={
 
 // Expected Output:
 
-
 // {
 //     userName: 'kaylin',
 //     subjectCodes: ['M','S', 'G'],
 //     subjectScores: [23,35,30]
 // }
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
 
 
 // soln:
@@ -44,8 +47,30 @@ let obj = {
 console.log(obj);
 
 
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+// (2) Using Object.assign methods:
+
+
+const subjects = Object.keys(userDetails).splice(1, 3);
+let subCodes = [];
+subjects.forEach((item) =>  {
+    subCodes.push(item.charAt(0).toUpperCase())
+});
+
+
+let newObj = Object.assign({}, {userName: userDetails.name, 
+                                subjectCodes: subCodes,
+                                subjectScores: Object.values(userDetails).filter((elem) => typeof elem === 'number'),
+                            })         
+
+console.log(newObj);
+
+
 
 
 /////////////////////////////////////////////////////////////////////////////////////
+
 
 
