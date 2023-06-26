@@ -143,22 +143,6 @@ console.log("Grade:", grade);  //p. Grade : A
 
 
 
-/* A Set is a collection of unique elements:
- -> Set is a built-in object that store unique values of any type, 
- -> Set can be used to eliminate duplicate values from an array or 
-    to store a collection of values without any repetitions. */
-
-
-
-
-// Make Array Unique using Set
-
-const arr = [1, 2, 1, 3, 2, 4, 2, 5];
-
-const uniqueArr = [... new Set(arr)];
-
-console.log(uniqueArr);  //output: [1, 2, 3, 4, 5]
-
 
 
 
