@@ -24,6 +24,24 @@ const userDetails={
 
 // soln:
 
+// **Ideal way:
+
+const userDetails2 = {
+    usernme: userDetails.name,
+    subjectCodes: Object.keys(userDetails).filter(sub => sub != 'name').map(value => value[0].toUpperCase()),
+    subjectScores: Object.values(userDetails).filter(Number),
+}
+
+
+console.log(userDetails2);
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+
 // (1) Using Hardcoded:
 
 // **Generating subject code:
@@ -66,6 +84,9 @@ let newObj = Object.assign({}, {userName: userDetails.name,
                             })         
 
 console.log(newObj);
+
+
+
 
 
 
