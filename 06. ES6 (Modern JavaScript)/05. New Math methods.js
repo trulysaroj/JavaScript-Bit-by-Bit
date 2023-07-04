@@ -1,0 +1,63 @@
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+/* After ES6 (ECMAScript 2015), JavaScript introduced several new Math methods. 
+Here are a few notable ones:*/ 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// *Math.trunc() --> Returns the integer part of a number by removing any fractional digits
+
+console.log(Math.trunc(99.9));  // 99
+console.log(Math.trunc(4.2));   // 4
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/* *Math.sign() --> Returns the sign of a number as 1, -1, or 0 representing positive, 
+negative, or zero values respectively */
+
+console.log(Math.sign(5));    // 1
+console.log(Math.sign(-5));   // -1
+console.log(Math.sign(0));    // 0
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// *Math.cbrt() --> Returns the cube root of a number
+
+console.log(Math.cbrt(27));   // Output: 3
+console.log(Math.cbrt(-8));   // Output: -2
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// *Math.log10() --> Returns the base-10 logarithm of a number
+
+console.log(Math.log10(100));   // Output: 2
+console.log(Math.log10(1000));  // Output: 3
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/* Math.hypot()  --> Returns the square root of the sum of squares of its arguments, 
+(which can be useful for calculating the length of a vector.) */
+
+console.log(Math.hypot(3, 4));   // 5
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////

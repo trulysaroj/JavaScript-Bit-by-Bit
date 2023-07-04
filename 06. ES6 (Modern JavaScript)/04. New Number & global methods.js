@@ -1,0 +1,94 @@
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+/* After ES6 (ECMAScript 2015), JavaScript introduced several new number and global methods. 
+Here are a few notable ones:*/ 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+// New Number Methods:
+
+// *Number.isInteger() --> Checks if a value is an integer
+
+console.log(Number.isInteger(7));    // true
+console.log(Number.isInteger(7.5));  // false
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// *Number.isNaN() --> Checks if a value is NaN (Not-a-Number)
+
+console.log(Number.isNaN(10));     // false
+console.log(Number.isNaN('10'));   // false
+console.log(Number.isNaN(NaN));    // true 
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// *Number.parseFloat() --> Parses a string and returns a floating-point number
+
+console.log(Number.parseFloat('10.5'));   // 10.5
+console.log(Number.parseFloat('3.14'));   // 3.14
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// *Number.parseInt() --> Parses a string and returns an integer
+
+console.log(Number.parseInt('7'));   // 7
+console.log(Number.parseInt('99'));  // 99
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// New Global Methods:
+
+// *Object.is() --> Determines whether two values are the same.
+
+console.log(Object.is(5, 5));    // true
+console.log(Object.is('5', 5));  // false
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// *Array.from() --> Creates a new array from an array-like or iterable object
+
+const passion = 'coding'
+console.log(Array.from(passion));  // ['C', 'o', 'd', 'i', 'n', 'g' ]
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// *Array.of() --> Creates a new array with the given arguments as elements
+console.log(Array.of(1, 2, 3, 4, 5));  // [1, 2, 3, 4, 5]
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// *Array.isArray() --> Checks if a value is an array
+
+console.log(Array.isArray([1, 2, 4]));    // true
+console.log(Array.isArray('Array'));      // false
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
