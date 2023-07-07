@@ -1,0 +1,77 @@
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/* Array destructuring:
+It allows you to extract values from an array and assign them to variables in a convenient way.*/ 
+
+
+// *Syntax
+// const [variable1, variable2, ...rest] = array;
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Example: 1
+const book = ['Robust Jacascript', 250, 700];
+
+// Using old way
+// const name = book[0];
+// const pages = book[1];
+// const price = book[2];
+
+// console.log(name, pages, price);
+
+
+
+// *Using Array destructuring:
+const [name, pages, price] = book;
+
+console.log(name, pages, price);  // Robust Javascript 250 700
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Example: 1
+const arr = [1, 2, 3, 4 , 5];
+
+// Array Desctruturing
+const [first, second, ...rest] = arr;
+
+console.log(first, second, rest);   // 1 2 [3, 4, 5]
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// *Passing default value or new varaiables
+const num = [2, , 4, 6 ,8];
+
+const [n1, n2 = 3, n4, n5] = num;
+console.log(n1);  //2
+console.log(n2);  //3
+console.log(n4);  // 4
+console.log(n5);  // 6
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// *Swap values between variables without using Array destructuring:
+
+let a = 1;
+let b = 2;
+
+// Swap values using array destructuring
+[a, b] = [b, a];
+
+console.log(a); // Output: 2
+console.log(b); // Output: 1
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
