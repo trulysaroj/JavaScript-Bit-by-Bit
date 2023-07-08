@@ -43,7 +43,7 @@ console.log(position);  // CEO
 
 
 
-// *Renaming variables: --> Object destructuring allows you to rename variables during assignment:
+// *Renaming variables: --> Object ls allows you to rename variables during assignment:
 
 // example:
 const user = {

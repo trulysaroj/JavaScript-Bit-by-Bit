@@ -1,0 +1,73 @@
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Arrow Function (Fat Arrow function):  --> Shorter & clearer modern way to delcear function
+
+
+// *Syntax:
+// (parameter1, parameter2, ...) => {
+     // function body
+//   return expression;
+//  }
+  
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Example:
+
+// Old way
+function sum(a, b) {
+    return a + b;
+   
+};
+
+console.log(sum(2, 3));  // 5
+
+
+
+// *Using Arrow function (=>)
+let sumArrow = (a, b) => {
+    return a + b;
+}
+
+console.log(sumArrow(2, 7));  // 9
+
+
+// using implicit return:
+let subArrow = (a, b) => a - b;
+
+console.log(subArrow(7, 2));  // 5
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// When no argument is required:
+let randomNum = () => Math.random();
+
+console.log(randomNum);
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// *In Annynonymus function: 
+
+// example in event listioner:
+
+
+// *old way:
+// document.addEventListener('click', function() {
+//     console.log('Clicked ...');
+// })
+
+
+// *Using Arrow:
+// document.addEventListener('click', () => console.log('clicked ...'));
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
