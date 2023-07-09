@@ -7,7 +7,7 @@ console.log("" || "Saroj"); // Print -> Saroj
 console.log(true || 0); // Print -> true
 console.log(undefined || null); // Print -> null
 
-// Note:- only truthy value will execute and stop executed afte it
+// Note:- only truthy value will execute and stop executed after it
 
 console.log(0 || false || null || undefined || "Hello" || ture || 23); 
 // Print -> hello, cuz it's the first truthy vlaue
