@@ -9,13 +9,9 @@ This repository aims to provide a comprehensive collection of JavaScript concept
 
 This repository serves as a learning resource for JavaScript programming language. It will cover a wide range of topics, starting from the basics and progressing towards more advanced concepts. Each concept is explained in a clear and concise manner, accompanied by examples and exercises to reinforce your understanding.
 
-### Note
 
-_This repository is not completed yet, since I am working on this project for a week. I have covered some fundamental (basic)
-of Javascript Langauge. More advanced topics & concepts will be added daily. and I promised that I will keep updating this repository according to ECMAScript standardized in the future ahead._
 
-## Show some ❤️ and support by hitting star to the repo if you found this helpful!
 
-Thanks & Regards,
 
-#### @trulysaroj
+
+Author: @trulysaroj
