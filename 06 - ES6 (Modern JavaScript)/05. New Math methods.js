@@ -61,3 +61,44 @@ console.log(Math.hypot(3, 4));   // 5
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//* Math.fixedTo() --> Roundup the decimol values
+
+let billAmount = 45667.677878;
+console.log(billAmount.toFixed(2));   // 45667.68
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//* toPrecision() --> formats a number using a specified precision (total number of significant digits) and returns a string representation of the number.
+let num = 454.456546;
+let preciseNum = num.toPrecision(4);
+console.log(preciseNum);   // '454.5'
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//*  toLocaleString() --> convert a number into a string, representing the number using the local conventions for digit grouping, decimal separators, and other regional numeric formatting rules based on the user's locale. 
+
+let salery = 100000;
+let localSalary = salery.toLocaleString('en-in');  // en-in modify accoding to indian system, as same in nepali too.
+console.log(localSalary);   // 1,00,000
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//* Extras:
+
+// Getting random number between specified range
+let min = 20;
+let max = 30;
+
+let randomNum = Math.floor( Math.random() * (max - min + 1) + min);   // return num between 20-30 always
+console.log(randomNum);

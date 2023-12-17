@@ -41,10 +41,11 @@ console.log('10' / '2');  // Print -> 5
 console.log('15' > '11');  // Print -> true ,cuz 15 is greate than 11
 
 
-// #Note:- Only in + operators behave like string or convert to string 
 
 
 
+
+//*  Note:- Only in + operators behave like string or convert to string 
 
 
 // Number Guesing game
@@ -57,6 +58,46 @@ console.log('15' > '11');  // Print -> true ,cuz 15 is greate than 11
    console.log('5' + '2' + '3' - 5); // Print -> 518 ie. '5' + '2' + '3' = 523 - 5 = 518
 
 
+
+
+
+/* ---------------------------------------------------------------------------------------
+ * Number() -> Convert data type to number 
+ 
+ when convert data type to number
+ '77' --> 77
+ '8900vbfg' --> Nan
+ undefined --> Nan
+ true --> 1
+ false --> 0
+ null --> 0
+
+
+
+ * Boolean() --> Convert data type to boolean
+ when convert data type to boolean
+ 1 --> true
+ 0 --> False
+ '' --> false
+ 'python' --> true
+
+
+
+ */ 
+
+ let q = 5;
+const r = q++;
+
+console.log(`q:${q}, r:${r}`);
+// Expected output: "q:6, r:5"
+
+let s = 3;
+const t = ++s;
+
+console.log(t);
+
+console.log(`s:${s}, t:${t}`);
+// Expected output: "s:4, t:4
 
 
 

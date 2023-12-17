@@ -66,6 +66,13 @@ sub.splice(1, 3);
 console.log(sub); // Remove from index 1 to 3 ie. Economics, Physics & History
 
 
+//* Differnce between slice & splice:
+// slice --> does not modify the original array; it creates a new array based on the specified indices.
+// splice --> modifies the original array by removing elements and/or adding new elements at the specified index
+
+
+
+
 ////////////////////////////////////////////////////////////////////////////////////
 
 

@@ -25,5 +25,11 @@
  let firstName = 'Elon';
  const lastName = 'Musk';
  let Age = 52;
+ var marriedStatus;
 
  console.log(firstName); // Print Elon
+ 
+
+ // .table([]) --> Print multiple value on console with table view
+ console.table([firstName, lastName, Age, marriedStatus]);  
+ 
